@@ -1,0 +1,140 @@
+body {
+	margin: 1;
+	padding: 0;
+	font-family: fantasy;
+  background-color: #0027e9;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+main {
+	padding: 0 2rem;
+}
+
+/* ##### Search ##### */
+header {
+
+	margin-bottom: 2rem;
+}
+
+input[type='text'] {
+	margin: 1rem;
+	background: #fff;
+	font-size: 1.1rem;
+	border: none;
+	box-shadow: none;
+	border-radius: 30px;
+	padding: 0 2rem;
+	width: calc(100% - 2rem);
+	height: 2rem;
+}
+
+/* ##### NamesList ##### */
+tr {
+	padding: 0;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  height: 1.5rem;
+  background-color: #ff9a00;
+
+}
+th {
+	position: left;
+	list-style: none;
+	padding: 0.25rem 0.75rem;
+	margin: 2px;
+	border-radius: 3px;
+
+
+
+}
+td:hover {
+	position: left;
+	cursor: pointer;
+	background-color:  #0027e9;
+}
+
+
+.column1 {
+	float: left;
+	width: 75%;
+	padding: 10px;
+  background-color: #0027e9;
+
+}
+.column2 {
+
+	float: left;
+	width: 25%;
+	padding: 20px;
+	background-color: #ff9a00;
+}
+
+.row {
+	margin: 1rem;
+
+}
+
+.row:after {
+	padding: 1 0rem;
+	content: '';
+	display: table;
+	clear: both;
+
+}
+
+.tableWrapper {
+	max-height: 800px;
+	overflow: auto;
+	scroll-behavior: smooth;
+}
+
+
+.credit {
+	padding: 1rem 0;
+	color: #fff;
+}
+.credit a {
+	color: #ff9a00;
+
+}
+button {
+  font-style: italic;
+	background-color: #fff;
+	color: #3b3b3b;
+	padding: 0.6rem 1rem;
+	font-size: 0.8rem;
+	border: solid 1px #c7c7c7;
+	margin: 1rem 0;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	outline: none;
+}
+button:hover {
+	background: #ddd;
+}
+
+.error-text {
+	color: white;
+  font-size: 1.5rem;
+  font-style: oblique;
+
+}
+.bottomButton{
+  margin-left: 475px;
+}
+.addBuildingButton{
+  margin-left: 450px;
+}
+.code{
+  background-color: #ff9a00;
+  margin-left:371px;
+}
+.building{
+  margin-left: 2px;
+  background-color: #ff9a00;
+}
+.enterB{
+  background-color: #ff9a00;
+}
